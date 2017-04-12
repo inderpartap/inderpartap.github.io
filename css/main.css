@@ -1907,6 +1907,10 @@ a {
   padding-top: 1px;
 }
 
+.social__link-resume span {
+  padding-top: 1px;
+}
+
 .social__link-linkedin span {
   padding-top: 5px;
 }
