@@ -126,6 +126,12 @@ html {
   fill: #626262;
 }
 
+.icon-logo-footer {
+  width: 1.7em;
+  height: 1.7em;
+  fill: #626262;
+}
+
 .icon-message {
   width: 1.45em;
   height: 1em;
@@ -276,6 +282,8 @@ a {
 .out-black-bg .social__logo .icon-logo {
   fill: #fff;
 }
+
+
 
 .out-black-bg .social__link {
   color: #FFF;
@@ -895,6 +903,7 @@ a {
   fill: #626262;
 }
 
+
 .section-footer {
   background: none;
 }
@@ -928,6 +937,9 @@ a {
   visibility: visible;
   fill: #cecece;
 }
+
+
+
 
 .section__el {
   max-width: 770px;
@@ -996,6 +1008,8 @@ a {
   transition-property: opacity, visibility;
   transition-timing-function: ease;
 }
+
+
 
 .symbol {
   left: 4%;
@@ -1760,6 +1774,8 @@ a {
   fill: #fff;
 }
 
+
+
 .moveto {
   position: absolute;
   top: 0;
@@ -1883,9 +1899,14 @@ a {
   vertical-align: middle;
 }
 
+.social__logo .icon-logo-footer {
+  font-size: 26px;
+  vertical-align: middle;
+}
+
 .social__logo span {
-  /*padding-left: 30px;*/
-  font-size: 16px;
+  padding-left: 30px;
+  font-size: 13px;
   vertical-align: middle;
   letter-spacing: 0.4em;
 }
@@ -2666,6 +2687,11 @@ a {
   }
 
   .social__logo .icon-logo {
+    font-size: 25px;
+    fill: #8e8e8e;
+  }
+
+    .social__logo .icon-logo-footer {
     font-size: 25px;
     fill: #8e8e8e;
   }
