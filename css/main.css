@@ -2470,31 +2470,31 @@ a {
   background-image: url(../img/herox/bg-herox1.jpg);
 }
 
-.fract-pattern {
+.circle-pattern {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   height: 1639px;
-  background-image: url(../img/fract/fract-bg.png);
+  background-image: url(../img/circle/circle-bg.png);
   background-size: cover;
   background-position: top left;
   z-index: -1;
 }
 
-.fract-bg {
+.circle-bg {
   position: absolute;
   top: 40px;
   right: 0;
   width: 835px;
   height: 1159px;
-  background-image: url(../img/fract/fract-bg2.png);
+  background-image: url(../img/circle/circle-bg2.png);
   background-repeat: no-repeat;
   background-size: contain;
   z-index: -1;
 }
 
-.itconf-bg {
+.trendcast-bg {
   content: "";
   position: absolute;
   top: 0;
@@ -2509,7 +2509,7 @@ a {
   font-size: 0;
 }
 
-.itconf-bg:before {
+.trendcast-bg:before {
   content: "";
   display: inline-block;
   vertical-align: middle;
@@ -2517,10 +2517,10 @@ a {
   height: 100%;
 }
 
-.itconf-bg span {
+.trendcast-bg span {
   display: inline-block;
   width: 100%;
-  height: 37.8%;
+  height: 100%;
   background-color: #f4d509;
   vertical-align: middle;
 }
@@ -3163,19 +3163,19 @@ a {
     background-position: left bottom;
   }
 
-  .fract-bg {
+  .circle-bg {
     top: 200px;
     width: 600px;
     height: 833px;
   }
 
-  .itconf-bg {
+  .trendcast-bg {
     left: -5%;
     right: -5%;
     padding: 23px 0 0;
   }
 
-  .itconf-bg span {
+  .trendcast-bg span {
     height: 37%;
   }
 }
@@ -3290,7 +3290,7 @@ a {
     margin-top: 0;
   }
 
-  .fract-bg {
+  .circle-bg {
     top: 320px;
     width: 400px;
     height: 555px;
